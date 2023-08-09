@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body id="b">
+
+     <button id="btn">CLick Me</button>
+     <button id="r">Red</button>
+     <button id="g">Green</button>
+     <button id="d">Date</button>
+     <button id="c">Change</button>
+     <button id="o">jqdh</button>
+     <h1 id="h1"></h1>
+     <h2 id="h2"></h2>
+    <script>
+        // console.log("My Name is Nikhil Dubey")
+        // alert("Hello World")
+        // document.write("Hello")
+      
+    /* a=10
+     b=10
+     console.log(a+b)
+
+
+    var a =10
+    var b =30
+    console.log(a+b)
+
+    let c =50
+    let d =30
+    console.log(c+d)
+
+
+    const x =1.45
+    console.log(x)*/
+     
+
+  
+      /*Global-Variable
+        is redclared and can also reassigned*/
+ 
+    // var a = 10   
+    // var a =30   
+    // console.log(a)
+  
+
+    /*Local-Variable
+        is not redclared and can also reassigned*/
+    // let y =10 
+    // let y =30
+    // console.log(y)
+
+    //     let w = 5
+    //        w =10
+    //       console.log(w)
+
+      
+    
+    /*Const
+        is not  redclared and not also reassigned*/
+    /*const k = 2.4
+    const k =4.5
+    console.log(k)*/
+
+
+    /* hello(2)
+     function hello(i){
+        if(i==2){
+            let a=10
+            
+        }
+        console.log(a)
+     }*/
+      
+     document.getElementById("btn").onclick=function(){
+        document.getElementById("h1").innerHTML="Hii I am Nikhil Dubey"
+
+     };
+     document.getElementById("r").onclick=function(){
+        document.getElementById("h1").style.color="red"
+     }
+     document.getElementById("g").onclick=function(){
+        document.getElementById("h1").style.color="Green"
+     }
+     document.getElementById("d").onclick=function(){
+        document.getElementById("h2").innerHTML=new Date();
+     }
+     document.getElementById("c").onclick=function(){
+        document.getElementById("b").style.backgroundColor="Black"
+     }
+     document.getElementById("o").onclick=function(){
+        document.getElementById("h2").innerHTML = nikhil();
+     }
+     document.getElementById("g").onclick=function(){
+        document.getElementById("h2").style.color="Green"
+     }
+
+
+     function nikhil(){
+        let name = "Nikhil"
+        return name
+     }
+     
+     
+
+
+    
+
+
+
+    </script>
+</body>
+</html>
